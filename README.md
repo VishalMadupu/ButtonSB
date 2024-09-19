@@ -19,18 +19,18 @@ git clone https://github.com/yourusername/your-repository.git
 2. Navigate to the project directory:
 
 cd your-repository
-
+S
 
 3. Install the dependencies:
  
 npm install
-
+S
 
 ## Running the Project
 Development Server
 To start the development server and see the button component in action:
 
-# npm run dev
+### npm run dev
 
 
 it http://localhost:3000 in your browser to see the button. When you click the button, a spinner will appear in the center.
@@ -38,7 +38,7 @@ it http://localhost:3000 in your browser to see the button. When you click the b
 ## Storybook
 To run Storybook and view the button component with different states:
 
-# npm run storybook
+### npm run storybook
 
 
 
@@ -50,7 +50,7 @@ To publish your Storybook online with Chromatic:
 
 2. Install the Chromatic CLI:
 
-# npm install -g chromatic
+### npm install -g chromatic
 
 
 3. Add the Chromatic project token to your environment variables. You can find the token in your Chromatic project settings.
