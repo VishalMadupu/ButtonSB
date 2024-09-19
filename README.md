@@ -26,30 +26,31 @@ cd your-repository
 npm install
 
 
-Running the Project
+## Running the Project
 Development Server
 To start the development server and see the button component in action:
 
-npm run dev
+# npm run dev
 
 
 it http://localhost:3000 in your browser to see the button. When you click the button, a spinner will appear in the center.
 
-Storybook
+## Storybook
 To run Storybook and view the button component with different states:
 
-npm run storybook
+# npm run storybook
 
 
 
-Chromatic
+## Chromatic
+
 To publish your Storybook online with Chromatic:
 
 1. Sign up for a Chromatic account at Chromatic.
 
 2. Install the Chromatic CLI:
 
-npm install -g chromatic
+# npm install -g chromatic
 
 
 3. Add the Chromatic project token to your environment variables. You can find the token in your Chromatic project settings.
@@ -59,7 +60,7 @@ npm install -g chromatic
 npx chromatic --project-token <your-chromatic-project-token>
 
 
-Code Structure
+**Code Structure**
 src/components/Button.js: The main button component file.
 src/assets/scss/button.scss: SCSS styles for the button component.
 src/pages/index.js: Example usage of the button component.
