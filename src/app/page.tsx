@@ -22,6 +22,15 @@ export default function Home() {
         <Button onClick={handleOnclick} className="spinnerbtn btn-primary" loading={Loading}>
           Follow
         </Button>
+        <Button onClick={handleOnclick} className="spinnerbtn btn-secondary" loading={Loading}>
+          login
+        </Button>
+        <Button onClick={handleOnclick} className="spinnerbtn btn-success" loading={Loading}>
+          Sign up
+        </Button>
+        <Button onClick={handleOnclick} className="spinnerbtn btn-danger" loading={Loading}>
+          login page
+        </Button>
       </main>
     </div >
   );
